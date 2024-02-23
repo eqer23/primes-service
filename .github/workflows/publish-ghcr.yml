@@ -28,5 +28,5 @@ jobs:
       - name: Build and push the image
         run: |
           echo ${{ secrets.ACCESS_TOKEN }} | docker login ghcr.io --username eqer23 --password-stdin
-          docker build -t ghcr.io/eqer23/primes-service:latest --file Dockerfile .
-          docker push ghcr.io/eqer23/primes-service:latest
+          docker build -t ghcr.io/eqer23/primes_service:latest --file Dockerfile .
+          docker push ghcr.io/eqer23/primes_service:latest
