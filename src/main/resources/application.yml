@@ -1,0 +1,5 @@
+rabbitmq:
+  host: localhost
+  port: 4006
+  username: guest
+  password: guest
